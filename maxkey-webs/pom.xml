@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.dromara.maxkey</groupId>
+        <artifactId>maxkey-maven-4.0.2</artifactId>
+        <version>4.0.2</version>
+    </parent>
+    <groupId>org.dromara.maxkey</groupId>
+    <artifactId>maxkey-webs</artifactId>
+    <version>4.0.2</version>
+    <name>maxkey-webs</name>
+
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+
+    <packaging>pom</packaging>
+    <modules>
+        <module>maxkey-gataway</module>
+        <module>maxkey-web-maxkey</module>
+        <module>maxkey-web-mgt</module>
+        <module>maxkey-web-openapi</module>
+    </modules>
+
+
+</project>

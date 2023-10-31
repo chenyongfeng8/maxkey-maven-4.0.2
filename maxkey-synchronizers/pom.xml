@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>maxkey-maven-4.0.2</artifactId>
+        <groupId>org.dromara.maxkey</groupId>
+        <version>4.0.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>maxkey-synchronizers</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>maxkey-synchronizer</module>
+        <module>maxkey-synchronizer-activedirectory</module>
+        <module>maxkey-synchronizer-dingtalk</module>
+        <module>maxkey-synchronizer-ldap</module>
+        <module>maxkey-synchronizer-workweixin</module>
+
+        <module>maxkey-synchronizer-feishu</module>
+        <module>maxkey-synchronizer-jdbc</module>
+        <module>maxkey-synchronizer-reorgdept</module>
+    </modules>
+</project>

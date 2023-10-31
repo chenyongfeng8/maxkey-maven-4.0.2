@@ -1,0 +1,225 @@
+{
+  "app": {
+    "name": "MaxKey",
+    "description": "Maxkey Single Sign On System"
+  },
+  "menu": [
+    {
+      "text": "主导航",
+      "i18n": "mxk.menu.main",
+      "group": false,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "首页",
+          "i18n": "mxk.menu.home",
+          "icon": "anticon-home",
+          "link": "/dashboard/home",
+          "children": []
+        },
+        {
+          "text": "身份管理",
+          "i18n": "mxk.menu.identities",
+          "link": "/organizations",
+          "icon": "anticon-user",
+          "children": [
+            {
+              "text": "组织",
+              "i18n": "mxk.menu.identities.organizations",
+              "link": "/idm/organizations",
+              "icon": "anticon-cluster",
+              "children": []
+            },
+            {
+              "text": "用户",
+              "i18n": "mxk.menu.identities.users",
+              "link": "/idm/users",
+              "icon": "anticon-user",
+              "children": []
+            },
+            {
+              "text": "用户组",
+              "i18n": "mxk.menu.identities.groups",
+              "link": "/idm/groups",
+              "icon": "anticon-contacts",
+              "children": []
+            },
+            {
+              "text": "用户组成员",
+              "i18n": "mxk.menu.identities.groupmembers",
+              "link": "/idm/groupmembers",
+              "icon": "anticon-team",
+              "children": []
+            }
+          ]
+        },
+        
+        {
+          "text": "应用管理",
+          "i18n": "mxk.menu.apps",
+          "link": "/apps",
+          "icon": "anticon-project",
+          "children": []
+        },
+        {
+          "text": "访问控制",
+          "i18n": "mxk.menu.access",
+          "link": "/access",
+          "icon": "anticon-safety",
+          "children": [
+            {
+              "text": "访问控制",
+              "i18n": "mxk.menu.access.permissions",
+              "link": "/access/permissions",
+              "icon": "anticon-check-square",
+              "children": []
+            },
+            {
+              "text": "会话管理",
+              "i18n": "mxk.menu.sessions",
+              "link": "/access/sessions",
+              "icon": "anticon-eye",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "权限管理",
+          "i18n": "mxk.menu.permissions",
+          "link": "/permissions",
+          "icon": "anticon-radar-chart",
+          "children": [
+            {
+              "text": "资源管理",
+              "i18n": "mxk.menu.permissions.resources",
+              "link": "/permissions/resources",
+              "icon": "anticon-read",
+              "children": []
+            },
+            {
+              "text": "权限管理",
+              "i18n": "mxk.menu.permissions.privileges",
+              "link": "/permissions/privileges",
+              "icon": "anticon-carry-out",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "配置管理",
+          "i18n": "mxk.menu.config",
+          "link": "/config",
+          "icon": "anticon-setting",
+          "children": [
+            {
+              "text": "机构配置",
+              "i18n": "mxk.menu.config.institutions",
+              "link": "/config/institutions",
+              "icon": "anticon-appstore",
+              "children": []
+            },
+            {
+              "text": "账号管理",
+              "i18n": "mxk.menu.accounts",
+              "link": "/accounts",
+              "icon": "anticon-idcard",
+              "children": []
+            },
+            {
+              "text": "同步器管理",
+              "i18n": "mxk.menu.config.synchronizers",
+              "link": "/config/synchronizers",
+              "icon": "anticon-partition",
+              "children": []
+            },
+            {
+              "text": "连接器管理",
+              "i18n": "mxk.menu.config.connectors",
+              "link": "/config/connectors",
+              "icon": "anticon-api",
+              "children": []
+            },
+            {
+              "text": "社交服务",
+              "i18n": "mxk.menu.config.socialsproviders",
+              "link": "/config/socialsproviders",
+              "icon": "anticon-comment",
+              "children": []
+            },
+            {
+              "text": "LDAP配置",
+              "i18n": "mxk.menu.config.ldapcontext",
+              "link": "/config/ldapcontext",
+              "icon": "anticon-database",
+              "children": []
+            },
+            {
+              "text": "电子邮箱",
+              "i18n": "mxk.menu.config.emailsenders",
+              "link": "/config/emailsender",
+              "icon": "anticon-mail",
+              "children": []
+            },
+            {
+              "text": "短信服务",
+              "i18n": "mxk.menu.config.smsproviders",
+              "link": "/config/smsprovider",
+              "icon": "anticon-send",
+              "children": []
+            },
+            {
+              "text": "密码策略",
+              "i18n": "mxk.menu.config.passwordpolicy",
+              "link": "/config/passwordpolicy",
+              "icon": "anticon-file-protect",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "日志审计",
+          "i18n": "mxk.menu.audit",
+          "link": "/audit",
+          "icon": "anticon-history",
+          "children": [
+            {
+              "text": "登录日志",
+              "i18n": "mxk.menu.audit.logins",
+              "link": "/audit/audit-logins",
+              "icon": "anticon-audit",
+              "children": []
+            },
+            {
+              "text": "应用登录日志",
+              "i18n": "mxk.menu.audit.loginapps",
+              "link": "/audit/audit-login-apps",
+              "icon": "anticon-audit",
+              "children": []
+            },
+            {
+              "text": "同步器日志",
+              "i18n": "mxk.menu.audit.synchronizer",
+              "link": "/audit/audit-synchronizer",
+              "icon": "anticon-audit",
+              "children": []
+            },
+            {
+              "text": "连接器日志",
+              "i18n": "mxk.menu.audit.connector",
+              "link": "/audit/audit-connector",
+              "icon": "anticon-audit",
+              "children": []
+            },
+            {
+              "text": "管理日志",
+              "i18n": "mxk.menu.audit.operate",
+              "link": "/audit/audit-system-logs",
+              "icon": "anticon-audit",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

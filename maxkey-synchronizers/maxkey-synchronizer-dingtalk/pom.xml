@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.dromara.maxkey</groupId>
+        <artifactId>maxkey-synchronizers</artifactId>
+        <version>4.0.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>maxkey-synchronizer-dingtalk</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.dromara.maxkey</groupId>
+            <artifactId>maxkey-common</artifactId>
+            <version>4.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dromara.maxkey</groupId>
+            <artifactId>maxkey-core</artifactId>
+            <version>4.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dromara.maxkey</groupId>
+            <artifactId>maxkey-persistence</artifactId>
+            <version>4.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dromara.maxkey</groupId>
+            <artifactId>maxkey-synchronizer</artifactId>
+            <version>4.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>maxkey.top</groupId>
+            <artifactId>taobao-sdk-java-auto</artifactId>
+            <version>1479188381469-20210326</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../../maxkey-lib/taobao-sdk-java-auto_1479188381469-20210326.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>
